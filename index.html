@@ -10,24 +10,38 @@
         <link rel="icon" href="./public/images/logo-icon.png">
         <!-- Inclusão do link ao CSS aos 1:10:30 https://youtu.be/rw35RtyY1IQ -->
         <link rel="stylesheet" href="./public/css/main.css">
+        <link rel="stylesheet" href="./public/css/page-landing.css">
+        <link rel="stylesheet" href="./public/css/animations.css">
+
+        <!-- Referencia para fontes no google 1:38:19 https://youtu.be/rw35RtyY1IQ-->
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;1,800&display=swap" rel="stylesheet">
 
     </head>
     <body>
-        <head>
-            <img src="./public/images/logo.svg" alt="Logomarca de Happy"/>
-            <div>   
-                <strong>Osasco</strong>
-                <p>São Paulo</p>
+        <!-- Explicação de adicionamento de Caixas 1:31:42  -->
+        <div id="page-landing">
+            <div id="container">
+                <head>
+                    <img class ="animate-up"
+                        id="logo" 
+                        src="./public/images/logo.svg" 
+                        alt="Logomarca de Happy"/>
+                    <div class= "location animate-up">   
+                        <strong>Osasco</strong>
+                        <p>São Paulo</p>
+                    </div>
+                </head>
+                <main>
+                    <h1 class ="animate-up">Leve felicidade para o mundo</h1>
+                    <!-- Botão de Visita (Seta) -->
+                    <section class="visit">
+                        <p class ="animate-up">Visite orfanatos e mude o dia de muitas crianças</p>
+                        <a class ="animate-up" href="#" title="Visite orfanatos">
+                            <img src="./public/images/arrow.svg" alt="Ir para o mapa">
+                        </a>
+                    </section>
+                </main>
             </div>
-        </head>
-        <main>
-            <h1>Leve felicidade para o mundo</h1>
-            <section>
-                <p>Visite orfanatos e mude o dia de muitas crianças</p>
-                <a href="#" title="Visite orfanatos">
-                    <img src="./public/images/arrow.svg" alt="Ir para o mapa">
-                </a>
-            </section>
-        </main>
+        </div>
     </body>
 </html>

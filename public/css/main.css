@@ -1,5 +1,27 @@
-body{
-    
-    /* Instrução da cor de fundo da pagina 1:24:23: https://youtu.be/rw35RtyY1IQ */
-    background: linear-gradient(0deg,#29b6d1 0%,#00c7c7 100%) no-repeat;
+/* Inicio da explicação de css aos 1:20:00: https://youtu.be/rw35RtyY1IQ  */
+
+*{
+    /* Explicação de um Seletor Universal iniciado em 1:28:20 https://youtu.be/rw35RtyY1IQ */
+    margin: 0;
+    padding: 0;
+
 }
+body{
+    height: 100vh;
+    color: white;
+}
+
+:root{
+    /* Explicação do conceito de em e rem 1:45:00 https://youtu.be/rw35RtyY1IQ */
+    font-size: 62.5%;    
+}
+
+body, input,textarea,button{
+    /* Serviço de fontes do google: fonts.google.com */
+   
+    font: 400 1.8rem/1 'nunito','sans-serif';
+}
+
+
+
+
